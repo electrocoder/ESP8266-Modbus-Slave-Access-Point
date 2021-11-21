@@ -181,32 +181,32 @@ void loop() {
       ///////// Holding Register [0] A [9] = 10 Holding Registers Escritura
       ///////// Holding Register [0] A [9] = 10 Holding Registers Writing
 
-      MBHoldingRegister[0] = random(0, 12);
-      MBHoldingRegister[1] = random(0, 12);
-      MBHoldingRegister[2] = random(0, 12);
-      MBHoldingRegister[3] = random(0, 12);
-      MBHoldingRegister[4] = random(0, 12);
-      MBHoldingRegister[5] = random(0, 12);
-      MBHoldingRegister[6] = random(0, 12);
-      MBHoldingRegister[7] = random(0, 12);
-      MBHoldingRegister[8] = random(0, 12);
-      MBHoldingRegister[9] = random(0, 12);
+      MBHoldingRegister[0] = random(0, 12);  // 40001
+      MBHoldingRegister[1] = random(0, 12);  // 40002
+      MBHoldingRegister[2] = random(0, 12);  // 40003
+      MBHoldingRegister[3] = random(0, 12);  // 40004
+      MBHoldingRegister[4] = random(0, 12);  // 40005
+      MBHoldingRegister[5] = random(0, 12);  // 40006
+      MBHoldingRegister[6] = random(0, 12);  // 40007
+      MBHoldingRegister[7] = random(0, 12);  // 40008
+      MBHoldingRegister[8] = random(0, 12);  // 40009
+      MBHoldingRegister[9] = random(0, 12);  // 40010
 
       ///////// Holding Register [10] A [19] = 10 Holding Registers Lectura
       ///// Holding Register [10] A [19] = 10 Holding Registers Reading
 
       int Temporal[10];
 
-      Temporal[0] = MBHoldingRegister[10];
-      Temporal[1] = MBHoldingRegister[11];
-      Temporal[2] = MBHoldingRegister[12];
-      Temporal[3] = MBHoldingRegister[13];
-      Temporal[4] = MBHoldingRegister[14];
-      Temporal[5] = MBHoldingRegister[15];
-      Temporal[6] = MBHoldingRegister[16];
-      Temporal[7] = MBHoldingRegister[17];
-      Temporal[8] = MBHoldingRegister[18];
-      Temporal[9] = MBHoldingRegister[19];
+      Temporal[0] = MBHoldingRegister[10];  // 40011
+      Temporal[1] = MBHoldingRegister[11];  // 40012
+      Temporal[2] = MBHoldingRegister[12];  // 40013
+      Temporal[3] = MBHoldingRegister[13];  // 40014
+      Temporal[4] = MBHoldingRegister[14];  // 40015
+      Temporal[5] = MBHoldingRegister[15];  // 40016
+      Temporal[6] = MBHoldingRegister[16];  // 40017
+      Temporal[7] = MBHoldingRegister[17];  // 40018
+      Temporal[8] = MBHoldingRegister[18];  // 40019
+      Temporal[9] = MBHoldingRegister[19];  // 40020
 
       /// Enable Output 14
       digitalWrite(2, MBHoldingRegister[10] );
